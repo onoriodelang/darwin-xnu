@@ -18,7 +18,7 @@ ifndef SYMROOT
 export SYMROOT = $(SRCROOT)/BUILD/sym
 endif
 ifndef MallocNanoZone
-export MallocNanoZone := 1
+export MallocNanoZone := 2
 endif
 
 # Avoid make default rules, make becomes faster
